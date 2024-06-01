@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BusPasspro</string>
+    <string name="default_web_client_id">AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo</string>
+    <string name="google_maps_key">AIzaSyA1-WPl1LTYLgs1xUaPyUkdFABFGGIr7wo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="ticket">Book Ticket</string>
+    <string name="history">History</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Checkout -->
+    <string name="google_pay_status_unavailable">Unfortunately, Google Pay is not available on this device.</string>
+    <string name="payments_show_name">Successfully received payment data for %s!</string>
+    <string name="gateway_replace_name_example">"Gateway name set to \"example\" - please modify Constants.java and replace it with your own gateway."</string>
+    <string name="checkout_item_description">Description</string>
+    <string name="the_payment_completed_successfully_n_we_are_preparing_your_order">The payment completed successfully.\n We are preparing your order.</string>
+</resources>

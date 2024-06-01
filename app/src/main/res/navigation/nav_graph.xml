@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/seatSelectionFragment">
+
+    <fragment
+        android:id="@+id/seatSelectionFragment"
+        android:name="com.example.buspasspro.HomePage.SeatSelection.SeatSelectionFragment"
+        android:label="Seat Selection"
+        tools:layout="@layout/fragment_seat_selection">
+        <action
+            android:id="@+id/action_seatSelectionFragment_to_addSeatFragment"
+            app:destination="@id/addSeatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addSeatFragment"
+        android:name="com.example.buspasspro.HomePage.SeatSelection.AddSeatFragment"
+        android:label="Add Seat"
+        tools:layout="@layout/fragment_add_seat">
+        <action
+            android:id="@+id/action_addSeatFragment_to_checkOutFragment"
+            app:destination="@id/checkOutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkOutFragment"
+        android:name="com.example.buspasspro.HomePage.Checkout.CheckOutFragment"
+        android:label="Check Out"
+        tools:layout="@layout/fragment_check_out" />
+
+</navigation>

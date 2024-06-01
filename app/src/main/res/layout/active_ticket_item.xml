@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="363dp"
+        android:layout_height="570dp"
+        android:background="@drawable/ticket_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="284dp"
+            android:layout_height="479dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/ticket_back"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/trackBusBtnATI"
+                android:layout_width="51dp"
+                android:layout_height="48dp"
+                android:layout_gravity="right"
+                android:background="@drawable/rounded_button"
+                android:src="@drawable/navigation" />
+
+            <TextView
+                android:id="@+id/complanyNameATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/busNumberATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dateATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="right" />
+
+            <TextView
+                android:id="@+id/destinationATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/depatureTimeATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/seatATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceATI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#515151"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/QRImgATI"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

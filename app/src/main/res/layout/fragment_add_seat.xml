@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HomePage.SeatSelection.AddSeatFragment">
+
+    <TextView
+        android:id="@+id/headingSelectedSeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:text="SELECTED SEAT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seatNumberTXTAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/black_back"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/setDepatureDate"
+            android:layout_width="294dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_gray"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Select Trip Date"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnSelectSeatAS"
+            android:layout_width="258dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="select seat"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/confirmBtnAS"
+            android:layout_width="258dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:text="Confirm Selection"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
